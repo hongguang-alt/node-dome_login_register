@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/register.css">
+</head>
+
+<body>
+    <div class="all">
+        <div class='register'>
+            <div class="title">这是注册页面</div>
+            <form method='POST' action="/register">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">邮箱:</label>
+                    <input type="email" required class="form-control" name='email' id="exampleInputEmail1" placeholder="请输入你的邮箱">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">密码:</label>
+                    <input type="password" required class="form-control" name='password' id="exampleInputPassword1" placeholder="请输入你的密码">
+                </div>
+                <button type="submit" class="btn btn-default">确定</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
